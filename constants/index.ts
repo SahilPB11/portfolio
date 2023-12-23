@@ -67,7 +67,7 @@ export const ProImages = [
 export const ProImages2 = [
   {
     src: "/assets/projects/project3.png",
-    href:"https://support.discord.com/hc/en-us/articles/360001556852",
+    href:"https://portfolio-tau-sooty-87.vercel.app/my-contact",
    
   },
 ];
