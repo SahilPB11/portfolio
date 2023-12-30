@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -14,5 +20,3 @@
 .slow-spin {
   animation: rotation 5s linear infinite;
 }
-
-

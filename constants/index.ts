@@ -62,9 +62,6 @@ export const ProImages = [
     src: "/assets/projects/project2.jpg",
     href:"https://shoes-world-chi.vercel.app/",
   },
-];
-
-export const ProImages2 = [
   {
     src: "/assets/projects/project3.png",
     href:"https://portfolio-tau-sooty-87.vercel.app/",
