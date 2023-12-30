@@ -27,13 +27,13 @@ const ProjectSlider = () => {
           <SwiperSlide className="mb-14 " key={src}>
             <div className="relative group flex items-center">
               {/* Image */}
-              <div className="w-[280px] h-[500px] md:w-[230px] md:h-[500px]">
+              <div className="relative w-full h-[250px] md:h-[500px]"> {/* Set dimensions for the container */}
                 <Image
                   src={src}
                   alt="project image"
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-md object-cover"
+                  className="rounded-md"
                 />
               </div>
               {/* Animation Overlay */}
