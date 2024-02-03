@@ -20,3 +20,16 @@
 .slow-spin {
   animation: rotation 5s linear infinite;
 }
+/* styles.css or in your existing CSS file */
+a:hover:after {
+  content: attr(datatype);
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8); /* Transparent black background */
+  color: #fff; /* Text color */
+  padding: 4px 8px; /* Padding for the tooltip */
+  border-radius: 4px; /* Border radius */
+  font-size: 12px; /* Font size */
+  white-space: nowrap; /* Avoid line breaks */
+  z-index: 1; /* Ensure the tooltip is on top of other elements */
+  pointer-events: none; /* Allow interaction with elements beneath the tooltip */
+}

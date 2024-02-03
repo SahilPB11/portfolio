@@ -20,12 +20,12 @@ export const Socials = [
   {
     name: "Linkedin",
     src: "/assets/linkedin.svg",
-    link: "https://www.linkedin.com/in/sahil-garg-42874a24b/"
+    link: "https://www.linkedin.com/in/sahil-garg-0002march72/"
   },
   {
-    name: "Discord",
-    src: "/assets/discord.svg",
-    link: "https://support.discord.com/hc/en-us/articles/360001556852"
+    name: "LeetCode",
+    src: "/assets/leetcode.svg",
+    link: "https://leetcode.com/garg07825/"
   },
 ];
 
